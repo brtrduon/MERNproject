@@ -9,7 +9,8 @@ import App from './components/app';
 import About from './components/views/about';
 import Reserve from './components/views/reserve';
 import Confirmation from './components/views/confirmation';
-import Menu from './components/views/menu';
+import Food from './components/views/food';
+import Fullmenu from './components/views/fullmenu'
 import Site from './components/views/site';
 
 import reducers from './reducers';
@@ -24,7 +25,8 @@ ReactDOM.render(
         <Route path='/about' component={About} />
         <Route path='/reserve' component={Reserve} />
         <Route path='/confirmation' component={Confirmation} />
-        <Route path='/menu' component={Menu} />
+        <Route path='/food' component={Food} />
+        <Route path='/fullmenu' component={Fullmenu} />
         <Route path='/location' component={Site} />
       </Route>
     </Router>

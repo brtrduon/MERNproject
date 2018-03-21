@@ -8,16 +8,16 @@ class Header extends Component {
                 <Link className='navbar-brand' to='/'>Jamie's Kitchen</Link>
             </li>,
             <li className='nav-item' key={2}>
-                <Link className='nav-link' to='/about'>About</Link>
+                <Link className='nav-link' to='/about'>ABOUT</Link>
             </li>,
             <li className='nav-item' key={3}>
-                <Link className='nav-link' to='/location'>Location</Link>
+                <Link className='nav-link' to='/location'>LOCATION</Link>
             </li>,
             <li className='nav-item' key={4}>
-                <Link className='nav-link' to='/menu'>Menu</Link>
+                <Link className='nav-link' to='/food'>FOOD</Link>
             </li>,
             <li className='nav-item' key={5}>
-                <Link className='nav-link' to='/reserve'>Reservations</Link>
+                <Link className='nav-link' to='/reserve'>RESERVE</Link>
             </li>
         ];
     }

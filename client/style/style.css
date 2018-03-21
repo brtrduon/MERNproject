@@ -1,15 +1,18 @@
 ul {
     list-style: none;
 }
+li {
+    text-align: center;
+}
 html, head, body {
-    padding: 0;
+    padding: 0; 
     margin: 0;
     height: 100%;
     width: 100%;
 }
 .container {
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
     height: 100%;
     width: 100%;
 }
@@ -17,13 +20,11 @@ html, head, body {
     color: red;
 }
 .navbar {
-    margin: 0;
-    padding: 0;
     width: 100%;
     background-color: white;
     border-style: solid;
-    border-width: 1px;
-    border-color: black;
+    border-width: 3px;
+    border-color: white white black white;
 }
 .wrapper {
     background-color: gray;

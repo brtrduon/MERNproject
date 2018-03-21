@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 class Footer extends Component {
     render() {
         return (
-            <div>
+            <div className='footer'>
                 This is the footer
                 <br></br>
                 contact info?

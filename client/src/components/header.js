@@ -4,6 +4,9 @@ import { Link } from 'react-router';
 class Header extends Component {
     renderLinks() {
         return [
+            <li className='nav-item' key={4}>
+                <Link className='navbar-brand' to='/'>Welcome</Link>
+            </li>,
             <li className='nav-item' key={1}>
                 <Link className='nav-link' to='/about'>About</Link>
             </li>,
@@ -19,7 +22,6 @@ class Header extends Component {
     render() {
         return (
             <nav className='navbar navbar-light'>
-                <Link to='/' className='navbar-brand'>Welcome</Link>
                 <ul className='navbar navbar-nav'>
                     {this.renderLinks()}
                 </ul>

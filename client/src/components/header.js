@@ -5,7 +5,7 @@ class Header extends Component {
     renderLinks() {
         return [
             <li className='nav-item' key={1}>
-                <Link className='navbar-brand' to='/'>Jamie's Kitchen</Link>
+                <Link className='navbar-brand' to='/'><img className='logo' src='../../img/logo.png' alt='logo.png' /></Link>
             </li>,
             <li className='nav-item' key={2}>
                 <Link className='nav-link' to='/about'>ABOUT</Link>
@@ -26,7 +26,11 @@ class Header extends Component {
         return (
             <nav className='navbar-light'>
                 <ul className='navbar navbar-nav'>
-                    {this.renderLinks()}
+                    {/* <Link className='navbar-brand' to='/'><img className='logo' src='../../img/logo.png' alt='logo.png' /></Link> */}
+                    <p className='address'>(408) 123-4567 | 1600 Amphitheatre Pkwy, Mountain View, CA 94043</p>
+                    <div className='links'>
+                        {this.renderLinks()}
+                    </div>
                 </ul>
             </nav>
         );

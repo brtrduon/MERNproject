@@ -87,9 +87,9 @@ function validate(formProps) {
     if (!formProps.time) {
         errors.time = 'Please select a time for your reservation';
     }
-    if (formProps.date && formProps.time < Date.now) {
-        errors.date = 'Date cannot be in the past';
-    }
+    // if (formProps.date || formProps.time < Date.now) {
+    //     errors.date = 'Date cannot be in the past';
+    // }
     
     return errors;
 }

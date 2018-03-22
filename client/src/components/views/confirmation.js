@@ -5,10 +5,13 @@ class Confirmation extends Component {
     render() {
         return (
             <div>
-                Your confirmation has been confirmed.
+                <p>
+                    Your confirmation has been confirmed.
+                </p>
                 <br></br>
-                <br></br>
-                <Link to='/'>Click here</Link> to return to the home page.
+                <p>
+                    <Link to='/'>Click here</Link> to return to the home page.
+                </p>
             </div>
         );
     }

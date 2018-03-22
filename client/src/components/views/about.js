@@ -14,7 +14,7 @@ class About extends Component {
                 <br></br>
                 <br></br>
                 <p>
-                Born and raised in Tokyo, Japan, Jamie Lynn Sato discovered her talent and passion for cooking during her pre-teen years. After completing her bachelor's degree at the University of California, Berkeley, Jamie worked as Head Chef at several acclaimed restaurants in the Bay Area including, but not limited to, Fleur de Lys in San Francisco, Firehouse No.1 Gastropub in San Jose, and Woood Tavern in Oakland.
+                Born and raised in Tokyo, Japan, Jamie Lynn Sato discovered her talent and passion for cooking during her pre-teen years. After completing her bachelor's degree at the University of California, Berkeley, Jamie worked as Head Chef at several acclaimed restaurants in the Bay Area including, but not limited to, Fleur de Lys in San Francisco, Firehouse No.1 Gastropub in San Jose, and Wood Tavern in Oakland.
                 </p>
                 <br></br>
                 <p>

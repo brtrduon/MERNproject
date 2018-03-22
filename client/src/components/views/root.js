@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Root extends Component {
     render() {
         return (
-            <div>
+            <div className='body'>
                 this will be the page that client displays on load
             </div>
         );

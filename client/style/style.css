@@ -1,3 +1,7 @@
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
 p {
     color: rgb(178, 142, 158);
     font-family: arial;
@@ -13,8 +17,8 @@ li {
     text-align: center;
 }
 iframe {
-    width: 600px;
-    height: 450px;
+    width: 50%;
+    height: 300px;
     border: 0;
 }
 html, head, body {
@@ -52,9 +56,35 @@ html, head, body {
     height: 100%;
     width: 50%;
 }
-.location {
+.middle {
+    border-style: dashed;
+    border-color: rgb(178, 142, 158, 0.4) transparent rgb(178, 142, 158, 0.4) transparent;
+    border-width: 2px;
+    margin: 15px 0px 15px 0px;
+    width: 60%;
+}
+.middle p {
+    margin: 10px 0px 10px 0px;
+    font-family: "Comic Sans MS", sans-serif;
     font-size: 22px;
+}
+.title {
+    font-size: 22px;
+    font-weight: 700;
     color: white;
+}
+.body {
+    display: inline-block;
+    width: 75%;
+}
+/* .sidebar {
+    display: inline-block;
+    width: 30%;
+    border-style: solid;
+} */
+.profile_pic {
+    height: 40%;
+    width: 40%;
 }
 .footer {
     position: fixed;

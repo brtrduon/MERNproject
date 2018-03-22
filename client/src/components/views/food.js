@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 class Food extends Component {
     render() {
         return (
-            <div>
+            <div className='body'>
                 insert menu pics, desc, and prices here
                 <br></br>
                 <Link to='/fullmenu'>View full menu</Link>

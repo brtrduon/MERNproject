@@ -22,7 +22,7 @@ class Reserve extends Component {
         const { handleSubmit, fields: { first_name, last_name, phone_number, party_size, date, time }} = this.props;
         
         return (
-            <div>
+            <div className='body'>
                 <form onSubmit={handleSubmit(this.handleFormSubmit.bind(this))}>
                     <fieldset className='form-group'>
                         <label>First Name:</label>

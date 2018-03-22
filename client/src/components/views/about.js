@@ -3,8 +3,15 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <div>
-                <strong><p>Jamie Lynn Sato</p></strong>
+            <div className='body'>
+                <p className='title'>Jamie Lynn Sato</p>
+                <div className='middle'>
+                    <p>
+                        "It's always been something I wanted to do...to create delectable dishes that no one has seen before that everyone can enjoy..."
+                    </p>
+                </div>
+                <img className='profile_pic' src='./../img/profile_pic.jpg' alt='profile_pic.jpg' />
+                <br></br>
                 <br></br>
                 <p>
                 Born and raised in Tokyo, Japan, Jamie Lynn Sato discovered her talent and passion for cooking during her pre-teen years. After completing her bachelor's degree at the University of California, Berkeley, Jamie worked as Head Chef at several acclaimed restaurants in the Bay Area including, but not limited to, Fleur de Lys in San Francisco, Firehouse No.1 Gastropub in San Jose, and Woood Tavern in Oakland.

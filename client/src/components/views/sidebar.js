@@ -15,6 +15,8 @@ class Sidebar extends Component {
                 <label>Dinner</label>
                 <p>
                     Mon - Thur 6pm to 10pm
+                </p>
+                <p>
                     Fri - Sun 5pm to 12am
                 </p>
                 <label>Address</label>

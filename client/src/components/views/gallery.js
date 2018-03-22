@@ -24,7 +24,6 @@ class Gallery extends Component {
                 <img className='rfood' src='./../../../img/10.jpg' alt='10.jpg' />
                 <br></br>
                 <br></br>
-                {/* <Link to='/fullmenu'>View full menu</Link> */}
                 <Sidebar />
             </div>
         );

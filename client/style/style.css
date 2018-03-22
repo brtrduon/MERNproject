@@ -45,8 +45,6 @@ html, head, body {
 }
 .logo {
     width: 80%;
-    /* position: relative;
-    left: 35%; */
 }
 .address {
     position: relative;
@@ -56,7 +54,9 @@ html, head, body {
 }
 .links {
     position: relative;
-    /* left: 25%; */
+    top: 35px;
+    font-size: 20px;
+    margin-right: 10px;
 }
 .navbar {
     width: 100%;
@@ -94,23 +94,24 @@ html, head, body {
     padding-bottom: 5%;
 }
 .sidebar {
-    width: 30%;
+    width: 25%;
     border-style: dotted;
     border-color: rgb(178, 142, 158);
-    /* position: relative;
-    left: 110%;
-    bottom: 740px; */
     position: absolute;
     right: -150px;
     top: 50px;
-    padding: 0px 5px 5px 5px;
+    padding: 5px 0px 5px 25px;
+}
+.sidebar label {
+    font-weight: 700;
+    color: white;
+}
+.sidebar p {
+    font-weight: 500;
 }
 .profile_pic {
     height: 40%;
     width: 40%;
-    /* border-style: solid;
-    border-width: 5px;
-    border-color: transparent black black transparent; */
 }
 .lfood {
     display: inline-block;

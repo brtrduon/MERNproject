@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { reduxForm } from 'redux-form';
+import Sidebar from './sidebar';
 import * as actions from '../../actions';
 
 class Reserve extends Component {
@@ -23,7 +24,10 @@ class Reserve extends Component {
         
         return (
             <div className='body'>
-            <p className='title'>RESERVATIONS</p>
+                <p className='title'>RESERVATIONS</p>
+                <p>
+                    Our dining hall sits up to 100 guests at any given time. We take our seating accomodations very seriously and, thus, we only allow guest reservations a 10-minute gap before and after their reservation time. A reservation is considered to be forfeited if no seats are claimed after 10 minutes from the reservation time.
+                </p>
                 {/* implement a calendar? */}
                 <form className='form' onSubmit={handleSubmit(this.handleFormSubmit.bind(this))}>
                     <fieldset className='form-group'>
@@ -59,6 +63,7 @@ class Reserve extends Component {
                     {this.renderAlert()}
                     <button action='submit' className='btn btn-primary'>Place Reservation</button>
                 </form>
+                <Sidebar />
             </div>
         );
     }

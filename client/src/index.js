@@ -9,7 +9,7 @@ import App from './components/app';
 import About from './components/views/about';
 import Reserve from './components/views/reserve';
 import Confirmation from './components/views/confirmation';
-import Food from './components/views/food';
+import Gallery from './components/views/gallery';
 import Fullmenu from './components/views/fullmenu'
 import Site from './components/views/site';
 
@@ -25,7 +25,7 @@ ReactDOM.render(
         <Route path='/about' component={About} />
         <Route path='/reserve' component={Reserve} />
         <Route path='/confirmation' component={Confirmation} />
-        <Route path='/food' component={Food} />
+        <Route path='/gallery' component={Gallery} />
         <Route path='/fullmenu' component={Fullmenu} />
         <Route path='/location' component={Site} />
       </Route>

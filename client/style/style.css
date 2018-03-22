@@ -93,11 +93,18 @@ html, head, body {
     width: 75%;
     padding-bottom: 5%;
 }
-/* .sidebar {
-    display: inline-block;
+.sidebar {
     width: 30%;
-    border-style: solid;
-} */
+    border-style: dotted;
+    border-color: rgb(178, 142, 158);
+    /* position: relative;
+    left: 110%;
+    bottom: 740px; */
+    position: absolute;
+    right: -150px;
+    top: 50px;
+    padding: 0px 5px 5px 5px;
+}
 .profile_pic {
     height: 40%;
     width: 40%;

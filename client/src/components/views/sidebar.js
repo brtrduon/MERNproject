@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 class Sidebar extends Component {
     render() {
@@ -20,6 +21,7 @@ class Sidebar extends Component {
                 <p>
                     1600 Amphitheatre Pkwy, Mountain View, CA 94043
                 </p>
+                <Link to='/fullmenu'>View Full Menu</Link>
             </div>
         );
     }

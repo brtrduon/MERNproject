@@ -27,7 +27,7 @@ class Header extends Component {
             <nav className='navbar-light'>
                 <ul className='navbar navbar-nav'>
                     {/* <Link className='navbar-brand' to='/'><img className='logo' src='../../img/logo.png' alt='logo.png' /></Link> */}
-                    <p className='address'>(408) 123-4567 | 1600 Amphitheatre Pkwy, Mountain View, CA 94043</p>
+                    {/* <p className='address'>(408) 123-4567 | 1600 Amphitheatre Pkwy, Mountain View, CA 94043</p> */}
                     <div className='links'>
                         {this.renderLinks()}
                     </div>

@@ -49,8 +49,10 @@ html, head, body {
     left: 35%; */
 }
 .address {
-    position: fixed;
+    position: relative;
+    text-align: right;
     right: 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .links {
     position: relative;
@@ -89,6 +91,7 @@ html, head, body {
 .body {
     display: inline-block;
     width: 75%;
+    padding-bottom: 5%;
 }
 /* .sidebar {
     display: inline-block;
@@ -102,6 +105,17 @@ html, head, body {
     border-width: 5px;
     border-color: transparent black black transparent; */
 }
+.lfood {
+    display: inline-block;
+    height: 350px;
+    width: 48%;
+    margin: 0px 15px 5px 0px;
+}
+.rfood {
+    display: inline-block;
+    height: 350px;
+    width: 48%;
+}
 .form {
     width: 50%;
 }
@@ -113,6 +127,7 @@ html, head, body {
     border-style: solid;
     border-width: 3px;
     border-color: white transparent transparent transparent;
+    background-color: black;
 }
 .footer p {
     text-align: center;

@@ -90,6 +90,8 @@ function validate(formProps) {
     // if (formProps.date || formProps.time < Date.now) {
     //     errors.date = 'Date cannot be in the past';
     // }
+
+    // past time validation isn't working for some reason
     
     return errors;
 }

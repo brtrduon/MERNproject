@@ -86,6 +86,9 @@ html, head, body {
     height: 40%;
     width: 40%;
 }
+.form {
+    width: 50%;
+}
 .footer {
     position: fixed;
     bottom: 0;

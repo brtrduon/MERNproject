@@ -23,7 +23,9 @@ class Reserve extends Component {
         
         return (
             <div className='body'>
-                <form onSubmit={handleSubmit(this.handleFormSubmit.bind(this))}>
+            <p className='title'>RESERVATIONS</p>
+                {/* implement a calendar? */}
+                <form className='form' onSubmit={handleSubmit(this.handleFormSubmit.bind(this))}>
                     <fieldset className='form-group'>
                         <label>First Name:</label>
                         <input className='form-control' {...first_name} />

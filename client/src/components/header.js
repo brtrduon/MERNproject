@@ -5,7 +5,7 @@ class Header extends Component {
     renderLinks() {
         return [
             <li className='nav-item' key={1}>
-                <Link className='navbar-brand' to='/root'><img className='logo' src='../../img/logo.png' alt='logo.png' /></Link>
+                <Link className='navbar-brand' to='/root'><img className='logo' src='./../img/logo.png' alt='logo.png' /></Link>
             </li>,
             <li className='links nav-item' key={2}>
                 <Link className='nav-link' to='/about'>ABOUT</Link>
@@ -18,7 +18,10 @@ class Header extends Component {
             </li>,
             <li className='links nav-item' key={5}>
                 <Link className='nav-link' to='/reserve'>RESERVE</Link>
-            </li>
+            </li>,
+            <li className='uppernav' key={6}>
+                <p>(408) 123-4567 | 1600 Amphitheatre Pkwy, Mountain View, CA</p>
+            </li>,
         ];
     }
 

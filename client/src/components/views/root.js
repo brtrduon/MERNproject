@@ -17,7 +17,6 @@ class Root extends Component {
             mode: 'fade',
             adaptiveHeight: true,
             adaptiveWidth: true,
-            
             // touchEnabled: true,
         });
     };

@@ -28,6 +28,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-preset-stage-1": "^6.1.18",
+    "bxslider": "^4.2.13",
     "email-validator": "^1.1.1",
     "jquery": "^2.2.4",
     "lodash": "^3.10.1",

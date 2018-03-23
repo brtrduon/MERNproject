@@ -93,6 +93,36 @@ html, head, body {
     width: 75%;
     padding-bottom: 5%;
 }
+/* .bx-wrapper, .bx-viewport {
+    height: 100%;
+    width: 120% !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+} */
+.bx-wrapper {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    min-width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.backgroundimg {
+    min-width: 100% !important;
+}
+.bxslider {
+    min-width: 100% !important;
+}
+.bx-viewport {
+    min-width: 100% !important;
+}
+
+
+
+
 .sidebar {
     width: 25%;
     border-style: dotted;

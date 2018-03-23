@@ -26,7 +26,7 @@ module.exports = {
     contentBase: './'
   },
   plugins: [
-    new webpack.PrividePlugin({
+    new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery'
     })

@@ -26,9 +26,11 @@ class Reserve extends Component {
             <div className='body'>
                 <p className='title'>RESERVATIONS</p>
                 <p>
+                    *You may also place a reservation via telephone.
+                </p>
+                <p>
                     Our dining hall sits up to 100 guests at any given time. We take our seating accomodations very seriously and, thus, we only allow guest reservations a 10-minute gap before and after their reservation time. A reservation is considered to be forfeited if no seats are claimed after 10 minutes from the reservation time.
                 </p>
-                {/* implement a calendar? */}
                 <form className='form' onSubmit={handleSubmit(this.handleFormSubmit.bind(this))}>
                     <fieldset className='form-group'>
                         <label>First Name:</label>
@@ -72,7 +74,6 @@ class Reserve extends Component {
 
 function validate(formProps) {
     const errors = {};
-    // const regex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
     if (!formProps.first_name) {
         errors.first_name = 'First Name required';

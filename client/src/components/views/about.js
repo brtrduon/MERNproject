@@ -5,12 +5,17 @@ class About extends Component {
     render() {
         return (
             <div className='body'>
-                <p className='title'>Jamie Lynn Sato</p>
+                <p className='title'>About</p>
+                <p>
+                    Jamie's Kitchen is a local restaurant focused on delivering a Japanese-American hybrid culture and food. Founded in the summer of 2014, Jamie's Kitchen has been a mainstay in the Mountain View community, and has since become an icon of cultural unity and diversity. 
+                </p>
                 <div className='middle'>
                     <p>
                         "It's always been something I wanted to do...to create delectable dishes that no one has seen before that everyone can enjoy..."
                     </p>
                 </div>
+                <p className='title'>Jamie Lynn Sato</p>
+                <p>General Manager</p>
                 <img className='profile_pic' src='./../img/profile_pic.jpg' alt='profile_pic.jpg' />
                 <br></br>
                 <br></br>

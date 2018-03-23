@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import jquery from 'jquery';
 
 class Root extends Component {
     render() {

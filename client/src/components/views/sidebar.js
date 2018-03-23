@@ -23,6 +23,10 @@ class Sidebar extends Component {
                 <p>
                     1600 Amphitheatre Pkwy, Mountain View, CA 94043
                 </p>
+                <label>Telephone</label>
+                <p>
+                    (408) 123-4567
+                </p>
                 <Link to='/fullmenu'>View Full Menu</Link>
             </div>
         );

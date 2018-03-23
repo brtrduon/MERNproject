@@ -5,7 +5,7 @@ class Fullmenu extends Component {
     render(){
         return (
             <div className='body'>
-                insert full menu here with BS prices, desc, etc.
+                scan a page from a textbook and insert here
                 <Sidebar />
             </div>
         );

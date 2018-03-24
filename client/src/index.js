@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
-import { Router, Route, browserHistory } from 'react-router';
+import { Router, Route, Switch, browserHistory } from 'react-router';
+
 import reduxThunk from 'redux-thunk';
 
 import App from './components/app';

@@ -37,7 +37,8 @@ html, head, body {
     color: red;
 }
 .wrapper {
-    background-color: rgb(48, 13, 28);
+    background: linear-gradient(rgb(102, 36, 64), rgb(25, 6, 14));
+    /* background-color: rgb(48, 13, 28); */
     min-height: 100%;
     min-width: 100%;
     margin: 0 !important;
@@ -73,13 +74,13 @@ html, head, body {
     border-width: 3px;
     border-color: white white black white;
 }
-.torso {
+.children {
     position: relative;
     left: 25%;
     height: 100%;
     width: 50%;
 }
-/* torso class is preventing img in root.js from spanning */
+/* children class is preventing img in root.js from spanning */
 .middle {
     border-style: dashed;
     border-color: rgb(178, 142, 158, 0.4) transparent rgb(178, 142, 158, 0.4) transparent;
@@ -91,6 +92,7 @@ html, head, body {
     margin: 10px 0px 10px 0px;
     font-family: "Comic Sans MS", sans-serif;
     font-size: 22px;
+    color: white;
 }
 .title {
     font-size: 22px;
@@ -131,6 +133,7 @@ html, head, body {
     color: white;
 }
 .sidebar p {
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
 }
 .profile_pic {
@@ -159,7 +162,7 @@ html, head, body {
     border-style: solid;
     border-width: 3px;
     border-color: white transparent transparent transparent;
-    background-color: black;
+    background-color: rgb(25, 6, 14);
 }
 .footer p {
     text-align: center;

@@ -9,7 +9,7 @@ export default class App extends Component {
     return (
       <div className='wrapper'>
         <Header />
-        <div className='torso'>
+        <div className='children'>
           {this.props.children}
         </div>
         <Footer className='footer' />

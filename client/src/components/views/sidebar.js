@@ -27,7 +27,7 @@ class Sidebar extends Component {
                 <p>
                     (408) 123-4567
                 </p>
-                <Link to='/fullmenu'>View Full Menu</Link>
+                <Link className='sidebar_link' to='/fullmenu'>View Full Menu</Link>
             </div>
         );
     }

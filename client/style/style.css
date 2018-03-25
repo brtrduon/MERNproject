@@ -38,7 +38,6 @@ html, head, body {
 }
 .wrapper {
     background: linear-gradient(rgb(102, 36, 64), rgb(25, 6, 14));
-    /* background-color: rgb(48, 13, 28); */
     min-height: 100%;
     min-width: 100%;
     margin: 0 !important;
@@ -113,11 +112,14 @@ html, head, body {
     border-color: transparent !important;
     width: 100%;
     padding: 0 !important;
-    margin: 0 !important;
 }
 .backgroundimg {
     height: 100% !important;
     width: 100% !important;
+}
+.btn {
+    color: white;
+    background-color: gray;
 }
 .sidebar {
     width: 25%;
@@ -135,6 +137,9 @@ html, head, body {
 .sidebar p {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
+}
+.sidebar_link {
+    color: rgb(83, 165, 186);
 }
 .profile_pic {
     height: 40%;

@@ -63,14 +63,13 @@ class Reserve extends Component {
                         {time.touched && time.error && <div className='error'>{time.error}</div>}
                     </fieldset>
                     {this.renderAlert()}
-                    <button action='submit' className='btn btn-primary'>Place Reservation</button>
+                    <button action='submit' className='btn'>Place Reservation</button>
                 </form>
                 <Sidebar />
             </div>
         );
     }
 }
-
 
 function validate(formProps) {
     const errors = {};

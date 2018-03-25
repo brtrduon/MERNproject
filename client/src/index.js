@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
-import { Router, Route, Switch, browserHistory } from 'react-router';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 import reduxThunk from 'redux-thunk';
 
@@ -24,7 +24,7 @@ ReactDOM.render(
   <Provider store={store}>
     <Router history={browserHistory}>
       <Route exact path='/' component={App}>
-        <Route path='/root' component={Root} />
+        <IndexRoute component={Root} />
         <Route path='/about' component={About} />
         <Route path='/reserve' component={Reserve} />
         <Route path='/confirmation' component={Confirmation} />

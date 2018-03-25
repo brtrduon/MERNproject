@@ -5,7 +5,7 @@ class Header extends Component {
     renderLinks() {
         return [
             <li className='nav-item' key={1}>
-                <Link className='navbar-brand' to='/root'><img className='logo' src='./../img/logo.png' alt='logo.png' /></Link>
+                <Link className='navbar-brand' to='/'><img className='logo' src='./../img/logo.png' alt='logo.png' /></Link>
             </li>,
             <li className='links nav-item' key={2}>
                 <Link className='nav-link' to='/about'>ABOUT</Link>

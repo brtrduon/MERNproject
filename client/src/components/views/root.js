@@ -9,15 +9,11 @@ class Root extends Component {
 
     componentDidMount = () => {
         $('.slide').bxSlider({
-            // pager: false,
             controls: false,
             auto: true,
             speed: 700,
             infiniteLoop: true,
             mode: 'fade',
-            adaptiveHeight: true,
-            adaptiveWidth: true,
-            // touchEnabled: true,
         });
     };
 

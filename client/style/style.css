@@ -23,6 +23,11 @@ iframe {
     border-style: solid;
     border-color: gray;
     border-width: 1px;
+    transition: 0.5s;
+}
+iframe:hover {
+    width: 460px;
+    height: 310px;
 }
 html, head, body {
     padding: 0 !important; 
@@ -50,6 +55,10 @@ html, head, body {
     width: 80%;
     position: relative;
     left: 80%;
+    transition: 0.5s;
+}
+.logo:hover {
+    width: 82%;
 }
 .address {
     position: relative;
@@ -63,6 +72,10 @@ html, head, body {
     font-size: 20px;
     margin-right: 35px;
     left: 15%;
+    transition: 0.5s
+}
+.links:hover {
+    font-size: 21px;
 }
 .uppernav {
     font-size: 15px;
@@ -71,7 +84,7 @@ html, head, body {
 }
 .navbar {
     width: 100%;
-    background-color: white;
+    background: linear-gradient(white, rgb(242, 242, 242));
     border-style: solid;
     border-width: 3px;
     border-color: white white black white;
@@ -108,8 +121,6 @@ html, head, body {
     margin: 0 !important;
     padding: 0 !important;
 }
-/* .rootBody is for the root route only
- */
 .bx-wrapper {
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
@@ -164,6 +175,11 @@ html, head, body {
     border-style: solid;
     border-color: white;
     border-width: 1px;
+    transition: 0.5s;
+}
+.profile_pic:hover {
+    height: 47%;
+    width: 52%;
 }
 .lfood {
     display: inline-block;
@@ -173,6 +189,11 @@ html, head, body {
     border-style: solid;
     border-color: white;
     border-width: 1px;
+    transition: 0.5s;
+}
+.lfood:hover {
+    height: 350px;
+    width: 400px;
 }
 .rfood {
     display: inline-block;
@@ -181,6 +202,11 @@ html, head, body {
     border-style: solid;
     border-color: white;
     border-width: 1px;
+    transition: 0.5s;
+}
+.rfood:hover {
+    height: 350px;
+    width: 400px;
 }
 .form {
     width: 50%;

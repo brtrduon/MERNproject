@@ -4,14 +4,11 @@ import Header from './header';
 import Footer from './footer';
 
 export default class App extends Component {
-
   render() {
     return (
       <div className='wrapper'>
         <Header />
-        <div className='children'>
-          {this.props.children}
-        </div>
+        {this.props.children}
         <Footer className='footer' />
       </div>
     );

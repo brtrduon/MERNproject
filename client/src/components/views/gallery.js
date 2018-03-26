@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 import { Link } from 'react-router';
 import Sidebar from './sidebar';
 
 class Gallery extends Component {
+    componentDidMount = () => {
+        $('.lfood').mouseenter(function() {
+            // enlarge img by some percentage and revert back to original size on mouseexit. also need to add same effect for .rfood
+        });
+    };
+
     render() {
         return (
             <div className='body'>

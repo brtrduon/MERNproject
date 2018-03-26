@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 class Confirmation extends Component {
     render() {
         return (
-            <div>
+            <div className='body'>
                 <p>
                     Your confirmation has been confirmed.
                 </p>

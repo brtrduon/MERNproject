@@ -113,7 +113,8 @@ html, head, body {
     left: 20%;
     height: 100%;
     width: 45%;
-    padding-bottom: 5%;
+    padding: 0% 1% 4% 1%;
+    background-color: rgb(102, 36, 64, 0.1);
 }
 .rootBody {
     height: 100%;
